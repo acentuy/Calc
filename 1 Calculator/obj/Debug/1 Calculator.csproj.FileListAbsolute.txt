@@ -1,0 +1,75 @@
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.AssemblyReference.cache
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\App.g.cs
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator_MarkupCompile.cache
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator_MarkupCompile.lref
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\bin\Debug\1 Calculator.exe.config
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\bin\Debug\1 Calculator.exe
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\bin\Debug\1 Calculator.pdb
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\MainWindow.baml
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator.g.resources
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\_1_Calculator.Properties.Resources.resources
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.GenerateResource.cache
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.CoreCompileInputs.cache
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator.exe
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\1 Calculator.pdb
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\dark.baml
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\light.baml
+C:\Users\123\Desktop\c--main\Calculator\1 Calculator\obj\Debug\App.baml
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\bin\Debug\1 Calculator.exe.config
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\bin\Debug\1 Calculator.exe
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\bin\Debug\1 Calculator.pdb
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.AssemblyReference.cache
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\dark.baml
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\light.baml
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\MainWindow.g.cs
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\App.g.cs
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator_MarkupCompile.cache
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator_MarkupCompile.lref
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\App.baml
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\MainWindow.baml
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator.g.resources
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\_1_Calculator.Properties.Resources.resources
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.GenerateResource.cache
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.CoreCompileInputs.cache
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator.exe
+D:\Лабы\Лаб 4\Calculator\Calculator\1 Calculator\obj\Debug\1 Calculator.pdb
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\bin\Debug\1 Calculator.exe.config
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\bin\Debug\1 Calculator.exe
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\bin\Debug\1 Calculator.pdb
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.AssemblyReference.cache
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\dark.baml
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\light.baml
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\App.g.cs
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator_MarkupCompile.cache
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator_MarkupCompile.lref
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\App.baml
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\MainWindow.baml
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.g.resources
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\_1_Calculator.Properties.Resources.resources
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.GenerateResource.cache
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.CoreCompileInputs.cache
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.exe
+C:\Users\WolfRahm\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.pdb
+C:\Users\123\Desktop\Calculator\1 Calculator\bin\Debug\1 Calculator.exe.config
+C:\Users\123\Desktop\Calculator\1 Calculator\bin\Debug\1 Calculator.exe
+C:\Users\123\Desktop\Calculator\1 Calculator\bin\Debug\1 Calculator.pdb
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.AssemblyReference.cache
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\dark.baml
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\light.baml
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\App.g.cs
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator_MarkupCompile.cache
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator_MarkupCompile.lref
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\App.baml
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\MainWindow.baml
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.g.resources
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\_1_Calculator.Properties.Resources.resources
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.GenerateResource.cache
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.csproj.CoreCompileInputs.cache
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.exe
+C:\Users\123\Desktop\Calculator\1 Calculator\obj\Debug\1 Calculator.pdb

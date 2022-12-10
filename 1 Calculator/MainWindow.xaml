@@ -1,0 +1,146 @@
+﻿<Window x:Class="_1_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1_Calculator"
+        xmlns:glob="clr-namespace:System.Globalization;assembly=mscorlib"
+        mc:Ignorable="d"
+        x:Name="main"
+        
+        Title="Calculator" Background="#000000" Width="470" Height="619" ResizeMode="NoResize" Icon="calculations.png" KeyDown="Window_KeyDown" WindowStartupLocation="CenterScreen">
+    <Window.CommandBindings>
+        <CommandBinding Command="Copy" Executed="Copy_Executed"/>
+        <CommandBinding Command="Save" CanExecute="Save_CanExecute" Executed="Save_Executed"/>
+    </Window.CommandBindings>
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Style.Triggers>
+                <Trigger Property="Control.IsFocused" Value="True">
+                    <Setter Property="Control.Foreground" Value="Black" />
+                </Trigger>
+                <EventTrigger RoutedEvent="Click">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Width" Duration="0:0:1" To="220" AutoReverse="True" />
+                                <DoubleAnimation Storyboard.TargetProperty="Height" Duration="0:0:1" To="80" AutoReverse="True" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsMouseOver" Value="True" />
+                        <Condition Property="IsPressed" Value="True" />
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.Setters>
+                        <Setter Property="Background" Value="White" />
+                    </MultiTrigger.Setters>
+                </MultiTrigger>
+
+            </Style.Triggers>
+            
+               
+        </Style>
+        
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" MinHeight="19" Background="#343434" BorderThickness="0">
+            <MenuItem Header="History" Foreground="White">
+                <MenuItem Header="Save" Command = "Save" Margin="0" Foreground="Black" MaxHeight="19">
+                    <MenuItem.CommandBindings>
+                        <CommandBinding Command="Save" CanExecute="Save_CanExecute" Executed="Save_Executed"/>
+                    </MenuItem.CommandBindings>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid x:Name="MainRoot" Margin="5, 5, 5, 15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="6" Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Border BorderBrush="#a5a5a5" Grid.Row="0" Grid.RowSpan="2" BorderThickness="3" CornerRadius="25"/>
+                <TextBlock x:Name="tbOut" FontSize="60" Foreground="White" Margin="20 0 20 20" Grid.Row="1" Text="{Binding Path=(local:Calculator.InputBuffer)}" TextAlignment="Right">
+                    <TextBlock.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Copy" Command="Copy">
+                                <MenuItem.CommandBindings>
+                                    <CommandBinding Command="Copy" Executed="Copy_Executed"/>
+                                </MenuItem.CommandBindings>
+                            </MenuItem>
+                        </ContextMenu>
+                    </TextBlock.ContextMenu>
+                </TextBlock>
+                <TextBlock FontSize="20" Foreground="#A5A5A5" Margin="27 20 27 0" Grid.Row="0" Text="{Binding Path=(local:Calculator.OutputBuffer)}" TextAlignment="Right"/>
+            </Grid>
+
+            <Grid  Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="3">
+                <Border BorderThickness="0" CornerRadius="25"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Click ="Button_Click_2" Style="{DynamicResource ButtonStyle}" Grid.Column="0" Content="Dark" />
+                    <Button Click ="Button_Click_1" Style="{DynamicResource ButtonStyle}" Grid.Column="1" Content="Light"/>
+                </Grid>
+            </Grid>
+
+
+
+            <Button Grid.Column="0" Grid.Row="2" Style="{DynamicResource ButtonStyle}" Content="sin"/>
+            <Button Grid.Column="0" Grid.Row="3" Style="{DynamicResource ButtonStyle}" Content="cos"/>
+            <Button Grid.Column="0" Grid.Row="4" Style="{DynamicResource ButtonStyle}" Content="tan"/>
+            <Button Grid.Column="0" Grid.Row="5" Style="{DynamicResource ButtonStyle}" Content="π"/>
+
+            <Button Grid.Column="1" Grid.Row="2" Style="{DynamicResource ButtonStyle}" Content="&#x00b1;"/>
+            <Button Grid.Column="1" Grid.Row="3" Style="{DynamicResource ButtonStyle}" Content="&#x221A;"/>
+            <Button Grid.Column="1" Grid.Row="4" Style="{DynamicResource ButtonStyle}" Content="x&#x00b2;"/>
+            <Button Grid.Column="1" Grid.Row="5" Style="{DynamicResource ButtonStyle}" Content="n!"/>
+
+            <Button Grid.Column="2" Grid.Row="1" Style="{DynamicResource ButtonStyle}" Content="&#x27f5;"/>
+            <Button Grid.Column="2" Grid.Row="2" Style="{DynamicResource ButtonStyle}" Content="7"/>
+            <Button Grid.Column="2" Grid.Row="3" Style="{DynamicResource ButtonStyle}" Content="4" Cursor="Hand"/>
+            <Button Grid.Column="2" Grid.Row="4" Style="{DynamicResource ButtonStyle}" Content="1"/>
+            <Button Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="2" Style="{DynamicResource ButtonStyle}" Content="0"/>
+
+            <Button Grid.Column="3" Grid.Row="1" Style="{DynamicResource ButtonStyle}" Content="CE"/>
+            <Button Grid.Column="3" Grid.Row="2" Style="{DynamicResource ButtonStyle}" Content="8"/>
+            <Button Grid.Column="3" Grid.Row="3" Style="{DynamicResource ButtonStyle}" Content="5"/>
+            <Button Grid.Column="3" Grid.Row="4" Style="{DynamicResource ButtonStyle}" Content="2"/>
+
+            <Button Grid.Column="4" Grid.Row="1" Style="{DynamicResource ButtonStyle}" Content="C"/>
+            <Button Grid.Column="4" Grid.Row="2" Style="{DynamicResource ButtonStyle}" Content="9"/>
+            <Button Grid.Column="4" Grid.Row="3" Style="{DynamicResource ButtonStyle}" Content="6"/>
+            <Button Grid.Column="4" Grid.Row="4" Style="{DynamicResource ButtonStyle}" Content="3"/>
+            <Button Grid.Column="4" Grid.Row="5" Style="{DynamicResource ButtonStyle}" Content="."/>
+
+            <Button Grid.Column="5" Grid.Row="1" Content="=" IsDefault="True" Style="{DynamicResource ButtonStyle}"/>
+            <Button Grid.Column="5" Grid.Row="2" Content="/" Style="{DynamicResource ButtonStyle}"/>
+            <Button Grid.Column="5" Grid.Row="3" Content="*" Style="{DynamicResource ButtonStyle}"/>
+            <Button Grid.Column="5" Grid.Row="4" Content="-" Style="{DynamicResource ButtonStyle}"/>
+            <Button Grid.Column="5" Grid.Row="5" Content="+" Style="{DynamicResource ButtonStyle}"/>
+
+
+        </Grid>
+    </DockPanel>
+</Window>
